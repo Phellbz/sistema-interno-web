@@ -1,10 +1,8 @@
-from PIL import Image, ImageTk
-import os
+import streamlit as st
+from omie_api import *
+import uuid
 from datetime import datetime
-import json
-import sys
 import pandas as pd
-from tkinter import filedialog
 
 # Importa tudo do módulo omie_api
 from omie_api import (
@@ -1917,4 +1915,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = MainApp(root)
     root.mainloop()
+
 
