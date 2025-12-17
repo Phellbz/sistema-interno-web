@@ -16,7 +16,6 @@ from omie_api import (
     extrair_nomes_e_codigos_produtos,
     OMIE_ESTOQUE_BASE_URL
 )
-from config import OMIE_APP_KEY, OMIE_APP_SECRET
 
 # ====================================================================================
 # CLASSE 1: ClientSelectionWindow (Primeira Tela)
@@ -1915,5 +1914,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = MainApp(root)
     root.mainloop()
+
 
 
