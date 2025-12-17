@@ -1,5 +1,3 @@
-import tkinter as tk
-from tkinter import ttk, messagebox, simpledialog
 from PIL import Image, ImageTk
 import os
 from datetime import datetime
@@ -1919,3 +1917,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = MainApp(root)
     root.mainloop()
+
